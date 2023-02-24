@@ -6,8 +6,8 @@ import React from "react";
 const Card = ({ title, description, imageSrc, url }) => {
 
   return (
-    <VStack className='card' bg="white" color="black" borderRadius='lg' >
-      <Link href={url} target='_blank'>
+    <VStack className='card' color="black" borderRadius='lg' >
+      <Link className='card-link' href={url} target='_blank' >
         <Image alt={title} src={imageSrc} loading='lazy' className='projectImg'/>
         <VStack className='projectData' align="left" p="1">
           <Heading size='md' align='center'  p='1'>{title}</Heading>
