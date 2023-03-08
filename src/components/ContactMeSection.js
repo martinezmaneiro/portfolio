@@ -39,11 +39,9 @@ const LandingSection = () => {
       comment: Yup.string().required("Required")
     }),
   });
-  
-  
+
   const { setFieldValue, getFieldProps, errors, touched, handleSubmit, resetForm } = formik
-  
-  
+
   const handleChange = (e) => {
     setFieldValue(e.target.name, e.target.value, false)
   }
