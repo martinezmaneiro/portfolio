@@ -47,10 +47,9 @@ code {
   text-decoration:none !important;
 }
 
-@media (max-width: 1000px){
-  .main{
-    display: flex;
+@media (max-width: 400px){
+  .card-container{
+    display: flex !important;
     flex-direction: column;
-    position: center;
   }
 }

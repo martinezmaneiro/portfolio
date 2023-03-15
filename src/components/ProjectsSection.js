@@ -48,6 +48,7 @@ const ProjectsSection = () => {
         Featured Projects
       </Heading>
       <Box
+        className='card-container'
         display="grid"
         gridTemplateColumns= '1fr 1fr'
         gridGap={20}
