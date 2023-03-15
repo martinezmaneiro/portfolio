@@ -1,15 +1,13 @@
 import {useState} from "react";
-
+/*This promise simulates the waiting time for a server response when the submit function is triggered*/
 const wait = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
-/**
- * Custom hook that can be used to submit a form and simulate an API call using Math.random() to simulate a random success or failure with equal chance of success and failure.
- */
+/*Custom hook that can be used to submit a form and simulate an API call using Math.random() to simulate a random success or failure with equal chance of success and failure*/
 const useSubmit = () => {
   const [isLoading, setLoading] = useState(false);
   const [response, setResponse] = useState(null);
 
-  const submit = async (url, data) => {
+  const submit = async (data) => {
     const random = Math.random();
     setLoading(true);
     try {
