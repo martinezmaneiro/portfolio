@@ -1,5 +1,6 @@
 import {createContext, useContext, useState} from "react";
 
+/*useContext hook for the alert to be displayed after submitting with a success or error response*/
 const AlertContext = createContext(undefined);
 
 export const AlertProvider = ({ children }) => {
