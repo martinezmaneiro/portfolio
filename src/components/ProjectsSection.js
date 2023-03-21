@@ -19,11 +19,11 @@ const projects = [
     getImageSrc: () => require("../images/drums.png"),
   },
   {
-    title: "Landing Page",
+    title: "Whatsapp clone",
     description:
-      "Fake sushi-restaurant landing page made using HTML, CSS and Bootstrap",
-    url: 'https://martinezmaneiro.github.io/landing-page/',
-    getImageSrc: () => require("../images/landing.png"),
+      "Whatsapp clone app using React, Bootstrap and Tailwind.",
+    url: 'https://martinezmaneiro.github.io/whatsapp-clone/',
+    getImageSrc: () => require("../images/wpp-clone.png"),
   },
   {
     title: "Random Quotes",

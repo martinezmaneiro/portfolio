@@ -1,17 +1,13 @@
 import React, { useState, useCallback, useEffect, useRef } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import {
   faGithub,
   faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
 import { Box, HStack } from "@chakra-ui/react";
 
+{/*Linked icons to visit my GitHub and LinkedIn profiles*/}
 const socials = [
-  {
-    icon: faEnvelope,
-    url: "mailto: joaquinmar08@gmail.com",
-  },
   {
     icon: faGithub,
     url: "https://github.com/martinezmaneiro",
@@ -24,6 +20,7 @@ const socials = [
 ];
 
 const Header = () => {
+  {/*Anchor to Project and Contact Me sections*/}
   const handleClick = (anchor) => () => {
     const id = `${anchor}-section`;
     const element = document.getElementById(id);
