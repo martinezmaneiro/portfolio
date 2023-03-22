@@ -29,7 +29,7 @@ const projects = [
     title: "Random Quotes",
     description:
       "Random quotes app with tweet link functionality designed with React and Bootstrap",
-    url: 'https://github.com/martinezmaneiro/random-quotes-machine',
+    url: 'hhttps://martinezmaneiro.github.io/random-quotes-machine/',
     getImageSrc: () => require("../images/quotes.png"),
   }
 ];
