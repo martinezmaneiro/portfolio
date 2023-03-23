@@ -7,14 +7,14 @@ const projects = [
   {
     title: "Javascript Calculator",
     description:
-      "Basic JS calculator made with React.js",
+      "Basic JS calculator made with React",
     url: 'https://martinezmaneiro.github.io/js-calculator/',
     getImageSrc: () => require("../images/calculator.png"),
   },
   {
     title: "Drums Machine",
     description:
-      "Drums machine designed with React and Bootstrap",
+      "Drums machine designed with React",
     url: 'https://martinezmaneiro.github.io/drums-machine/',
     getImageSrc: () => require("../images/drums.png"),
   },
@@ -26,10 +26,10 @@ const projects = [
     getImageSrc: () => require("../images/wpp-clone.png"),
   },
   {
-    title: "Random Quotes",
+    title: "Random Quotes Generator",
     description:
-      "Random quotes app with tweet link functionality designed with React and Bootstrap",
-    url: 'hhttps://martinezmaneiro.github.io/random-quotes-machine/',
+      "Random quotes app with tweet link functionality designed with React",
+    url: 'https://martinezmaneiro.github.io/random-quotes-machine/',
     getImageSrc: () => require("../images/quotes.png"),
   }
 ];
