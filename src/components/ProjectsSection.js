@@ -5,11 +5,11 @@ import Card from "./Card";
 
 const projects = [
   {
-    title: "Javascript Calculator",
+    title: "Whatsapp clone",
     description:
-      "Basic JS calculator made with React",
-    url: 'https://martinezmaneiro.github.io/js-calculator/',
-    getImageSrc: () => require("../images/calculator.png"),
+      "Whatsapp clone app using React, Bootstrap and Tailwind.",
+    url: 'https://martinezmaneiro.github.io/whatsapp-clone/',
+    getImageSrc: () => require("../images/wpp-clone.png"),
   },
   {
     title: "Drums Machine",
@@ -19,18 +19,18 @@ const projects = [
     getImageSrc: () => require("../images/drums.png"),
   },
   {
-    title: "Whatsapp clone",
-    description:
-      "Whatsapp clone app using React, Bootstrap and Tailwind.",
-    url: 'https://martinezmaneiro.github.io/whatsapp-clone/',
-    getImageSrc: () => require("../images/wpp-clone.png"),
-  },
-  {
     title: "Random Quotes Generator",
     description:
       "Random quotes app with tweet link functionality designed with React",
     url: 'https://martinezmaneiro.github.io/random-quotes-machine/',
     getImageSrc: () => require("../images/quotes.png"),
+  },
+  {
+    title: "Javascript Calculator",
+    description:
+      "Basic JS calculator made with React",
+    url: 'https://martinezmaneiro.github.io/js-calculator/',
+    getImageSrc: () => require("../images/calculator.png"),
   }
 ];
 

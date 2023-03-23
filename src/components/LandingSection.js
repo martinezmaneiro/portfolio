@@ -2,7 +2,7 @@ import React from "react";
 import { Avatar, Heading, VStack } from "@chakra-ui/react";
 import FullScreenSection from "./FullScreenSection";
 
-const greeting = "Greetings from Joaquin Martinez Maneiro";
+const greeting = "Joaquin Martinez Maneiro";
 const bio1 = "Frontend Developer";
 
 const LandingSection = () => (

@@ -14,7 +14,7 @@ const Footer = () => {
           maxWidth="1024px"
           height={16}
         >
-          <p>Joaquin Martinez Maneiro •  2023</p>
+          <p>joaquinmar08@gmail.com</p>
         </Flex>
       </footer>
     </Box>
